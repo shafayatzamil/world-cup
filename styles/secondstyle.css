@@ -20,24 +20,33 @@ body{
 .header-text {
     color:#fff;
 }
-.header-text a{
-    text-decoration: none;
-    color:#fff;
-    background-color: 
+
+/* btn */
+.container
+{
+  perspective: 320px;
+}
+.btn
+{
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: 
     #DD0000;
-    padding:5px 10px;;
-    border-radius: 5px;
-    font-size: 18px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
 }
-.header-text i{
-    font-size: 18px;
-    color:white;
-    
+
+.btn:hover{
+  transform: rotateY(-15deg);
+  box-shadow: 0 8px 15px black;
+  background-color: #00a8ff;
 }
-/* .fa-arrow-right{
-    font-size: 14px;
-    color:white;
-} */
 
 /* section group */
 .section-group{
