@@ -29,7 +29,15 @@ body{
     border-radius: 5px;
     font-size: 18px;
 }
-
+.header-text i{
+    font-size: 18px;
+    color:white;
+    
+}
+/* .fa-arrow-right{
+    font-size: 14px;
+    color:white;
+} */
 
 /* section group */
 .section-group{
@@ -123,4 +131,72 @@ footer h2{
     font-size: 20px;
     color:white;
     margin:0px 12px;
+}
+
+
+
+
+/*for tablet view */
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    .section-group{
+        flex-direction: column;
+        align-items: center;
+    }
+    .side-box{
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:40px;
+        height:60px;
+        
+    }
+    .side-box button{
+        display: inline;
+    }
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .show-box{
+        display: block;
+    }
+    /* .footer-box span{
+        display: flexbox;
+         flex-wrap: wrap;
+    } */
+}
+
+
+/* respondive design for mobile screen */
+@media screen and (max-width:480px){
+    .header-info{
+        flex-direction: column;
+         align-items: center;
+         /* box-sizing: border-box; */
+    }
+    .header-text{
+        text-align: center;
+        width:50%;
+    }
+    .section-group{
+        flex-direction: column;
+        align-items: center;
+    }
+    .side-box{
+        background-color: #fff;
+    }
+    .side-box button{
+        padding:5px 12px;
+    }
+    .gallery{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-box{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       gap:10px;
+       width:100%;
+    }
 }
