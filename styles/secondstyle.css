@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    width:900px;
+    margin:0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header csss */
+.header-info{
+    display: flex;
+    background-color:#1d2827;
+    padding:40px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+.header-title{
+    font-size: 48px;
+    /* color:#ffff; */
+}
+.header-text {
+    color:#fff;
+}
+.header-text a{
+    text-decoration: none;
+    color:#fff;
+    background-color: 
+    #DD0000;
+    padding:5px 10px;;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+/* section group */
+.section-group{
+    display: flex;
+}
+.side-box{
+    width:200px;
+    height: 200px;
+    /* display: grid;
+    grid-template-rows: repeat(3,1fr); */
+    display: flex;
+    flex-direction: column;
+    background-color: #1d2827;
+    margin-right: 12px;
+    padding:16px;
+
+}
+.side-box button{
+    margin:12px 0;
+    padding:5px 12px;
+    border-radius: 5px;
+    
+}
+.upcoming-box{
+    padding:5px 24px;
+}
+.side-box a{
+    text-decoration: none;
+    color: black;
+}
+#blog-button{
+    background-color: #DD0000;
+    color:white;
+}
+
+
+
+/* gallery */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:18px;
+    margin-bottom: 40px;
+}
+
+.blog{
+   box-shadow: 0px 0px 2px rgb(105, 104, 104);
+    
+}
+.blog-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px 24px;
+}
+.blog-image img{
+    width:100%;
+}
+.blog-text{
+    margin:5px 24px;
+}
+.blog-time{
+    font-size: 12px;
+    color:gray;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: #1d2827;
+    padding:12px;
+    color:white;
+}
+footer h2{
+    font-size: 30px;
+    /* border-bottom: 1px solid black; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+
+.footer-box span{
+    margin:0px 8px;
+}
+
+.footer-icons{
+    margin-top: 20px;
+}
+.footer-icons a{
+    font-size: 20px;
+    color:white;
+    margin:0px 12px;
+}
