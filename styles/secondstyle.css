@@ -48,6 +48,14 @@ body{
   background-color: #00a8ff;
 }
 
+.header-image:hover{
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
 /* section group */
 .section-group{
     display: flex;

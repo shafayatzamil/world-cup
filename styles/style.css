@@ -56,6 +56,13 @@ body{
   box-shadow: 0 8px 15px black;
   background-color: #00a8ff;
 }
+.header-image:hover{
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    /* transition-delay: 1s; */
+}
 
 
 /* section group */
